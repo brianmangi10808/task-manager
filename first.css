@@ -1,0 +1,57 @@
+body{
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   padding-right: 450px;
+    padding-left: 450px;
+  
+}
+.container{
+  display: flex;
+  flex-direction: column;  
+    background: #fff;
+    height: 60vh;
+    width: 100%;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;  
+    text-align: center;
+
+   
+}
+
+    
+.btn{
+    background: black;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 6px;
+}
+.btn:hover{
+    background: lightgreen;
+}
+#taskInput{
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 7px;
+  
+  border-inline:solid red;
+}
+.task{
+    color: blueviolet;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: sans-serif;
+    cursor: pointer;
+
+}
+.deleteButton{
+    background: red;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 7px;
+}
